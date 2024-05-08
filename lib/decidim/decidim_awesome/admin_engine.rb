@@ -30,6 +30,8 @@ module Decidim
         post :rename_scope_label, to: "config#rename_scope_label"
         get :checks, to: "checks#index"
         post :migrate_images, to: "checks#migrate_images"
+        resources :users_autoblocks, except: [:show] do
+        end
         root to: "config#show"
       end
 

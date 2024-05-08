@@ -412,6 +412,7 @@ en:
           proposals: Proposals Hacks
           styles: Custom Styles
           surveys: Surveys & Forms
+          users_autoblocks: Users Automatic Blocks
         menu_hacks:
           create:
             error: Error creating menu item! %{error}
